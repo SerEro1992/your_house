@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20231221220422">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231225150347">
 	<title>Ваш дом - агенство домашнего персонала</title>
 </head>
   <body>
@@ -162,7 +162,15 @@
 </div>
 
     </div>
-      <div class="slider">
+
+</div>
+
+
+</header>
+
+
+        <main class="main">
+  <div class="slider">
   <div class="slider__container">
     <img src="img/header/arrow.svg" class="arrow left" alt="arrow left" />
 
@@ -217,13 +225,6 @@
   <div class="slider__bottom"></div>
 </div>
 
-</div>
-
-
-</header>
-
-
-        <main class="main">
   <section class="search">
   <div class="search__container">
     <h2 class="search__title">Подобрать персонал</h2>
@@ -238,7 +239,7 @@
             <div class="select__icon"></div>
           </div>
 
-          <div class="select__body sel-body">
+          <div class="select__body search__select sel-body ">
             <div class="select__item sel-item"></div>
             <div class="select__item sel-item">Няня</div>
             <div class="select__item sel-item">Гувернантка</div>
@@ -279,70 +280,73 @@
   <section class="table">
   <div class="table__wrapper">
     <table class="personal__table">
-      <tr class="personal__title">
-        <td class="title__cell">ФИО</td>
-        <td class="title__cell">должность</td>
-        <td class="title__cell">возраст</td>
-        <td class="title__cell">стаж работы</td>
-      </tr>
-      <tr class="personal__content">
-        <td class="personal__name">Лопухова Надежда Александровна</td>
-        <td class="personal__post">Гувернантка</td>
-        <td class="personal__age">45</td>
-        <td class="personal__experience">15 лет</td>
-      </tr>
-      <tr class="personal__content">
-        <td class="personal__name">Ермакова Надежда Ивановна</td>
-        <td class="personal__post">Няня</td>
-        <td class="personal__age">30</td>
-        <td class="personal__experience">5 лет</td>
-      </tr>
+      <thead>
+        <tr class="personal__title">
+          <th class="title__cell">ФИО</th>
+          <th class="title__cell">должность</th>
+          <th class="title__cell">возраст</th>
+          <th class="title__cell">стаж работы</th>
+        </tr>
+      </thead>
 
-      <tr class="personal__content">
-        <td class="personal__name">Филимонов Евгений Семенович</td>
-        <td class="personal__post">Садовник</td>
-        <td class="personal__age">50</td>
-        <td class="personal__experience">20 лет</td>
-      </tr>
+      <tbody>
+        <tr class="personal__content">
+          <td class="personal__name">Лопухова Надежда Александровна</td>
+          <td class="personal__post">Гувернантка</td>
+          <td class="personal__age">45</td>
+          <td class="personal__experience">15 лет</td>
+        </tr>
+        <tr class="personal__content">
+          <td class="personal__name">Ермакова Надежда Ивановна</td>
+          <td class="personal__post">Няня</td>
+          <td class="personal__age">30</td>
+          <td class="personal__experience">5 лет</td>
+        </tr>
 
-      <tr class="personal__content">
-        <td class="personal__name">Лопухова Надежда Александровна</td>
-        <td class="personal__post">Уборщица</td>
-        <td class="personal__age">35</td>
-        <td class="personal__experience">7 лет</td>
-      </tr>
-      <tr class="personal__content">
-        <td class="personal__name">Миронов Юрий Герасимович</td>
-        <td class="personal__post">Конюх</td>
-        <td class="personal__age">60</td>
-        <td class="personal__experience">15 лет</td>
-      </tr>
-      <tr class="personal__content">
-        <td class="personal__name">Новикова Нина Алексеевна</td>
-        <td class="personal__post">Повар</td>
-        <td class="personal__age">55</td>
-        <td class="personal__experience">30 лет</td>
-      </tr>
-      <tr class="personal__content">
-        <td class="personal__name">Лопухова Надежда Александровна</td>
-        <td class="personal__post">Гувернантка</td>
-        <td class="personal__age">45</td>
-        <td class="personal__experience">15 лет</td>
-      </tr>
-      <tr class="personal__content">
-        <td class="personal__name">Лопухова Надежда Александровна</td>
-        <td class="personal__post">Гувернантка</td>
-        <td class="personal__age">45</td>
-        <td class="personal__experience">15 лет</td>
-      </tr>
-      <tr class="personal__content">
-        <td class="personal__name">Лопухова Надежда Александровна</td>
-        <td class="personal__post">Гувернантка</td>
-        <td class="personal__age">45</td>
-        <td class="personal__experience">15 лет</td>
-      </tr>
+        <tr class="personal__content">
+          <td class="personal__name">Филимонов Евгений Семенович</td>
+          <td class="personal__post">Садовник</td>
+          <td class="personal__age">50</td>
+          <td class="personal__experience">20 лет</td>
+        </tr>
 
-
+        <tr class="personal__content">
+          <td class="personal__name">Лопухова Надежда Александровна</td>
+          <td class="personal__post">Уборщица</td>
+          <td class="personal__age">35</td>
+          <td class="personal__experience">7 лет</td>
+        </tr>
+        <tr class="personal__content">
+          <td class="personal__name">Миронов Юрий Герасимович</td>
+          <td class="personal__post">Конюх</td>
+          <td class="personal__age">60</td>
+          <td class="personal__experience">15 лет</td>
+        </tr>
+        <tr class="personal__content">
+          <td class="personal__name">Новикова Нина Алексеевна</td>
+          <td class="personal__post">Повар</td>
+          <td class="personal__age">55</td>
+          <td class="personal__experience">30 лет</td>
+        </tr>
+        <tr class="personal__content">
+          <td class="personal__name">Лопухова Надежда Александровна</td>
+          <td class="personal__post">Гувернантка</td>
+          <td class="personal__age">45</td>
+          <td class="personal__experience">15 лет</td>
+        </tr>
+        <tr class="personal__content">
+          <td class="personal__name">Лопухова Надежда Александровна</td>
+          <td class="personal__post">Гувернантка</td>
+          <td class="personal__age">45</td>
+          <td class="personal__experience">15 лет</td>
+        </tr>
+        <tr class="personal__content">
+          <td class="personal__name">Лопухова Надежда Александровна</td>
+          <td class="personal__post">Гувернантка</td>
+          <td class="personal__age">45</td>
+          <td class="personal__experience">15 лет</td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </section>
@@ -442,6 +446,6 @@
       </div>
     </div>
 
-    <script type="module" src="js/app.min.js?_v=20231221220422"></script>
+    <script type="module" src="js/app.min.js?_v=20231225150347"></script>
   </body>
 </html>
